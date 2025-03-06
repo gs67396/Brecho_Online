@@ -3,23 +3,6 @@
     text-align: center;
 }
 
-.Produtos{
-    text-align: center;
-}
-
-.carousel{
-    width: 100%;
-    gap: 20px;
-    display: flex;
-    width: 300px;
-}
-
-.carousel img{
-    transition:  0.5s ease-in-out;
-
-    border: 5px solid black;
-    border-radius: 20px;
-}
 
 .Navbar {
     background-color: #333;
@@ -44,12 +27,26 @@
 body{
     background-color: #403649;
     color: #dfd6cf;
+
+}
+.Produtos{
+    text-align: center;
 }
 
+.carousel{
+    gap: 20px;
+    display: flex;
+}
+
+.carousel img{
+    transition:  0.5s ease-in-out;
+    border: 5px solid black;
+    border-radius: 20px;
+}
 
 .imagem {
-    width: 100%;
-    width: 1000px;
+
+    width: 500px;
     margin: 1rem auto;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
